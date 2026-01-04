@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual Environment
+venv/
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# IDE-specific files
+.vscode/
+.idea/
+
+# Cloud credentials
+.aws/
+gcp-key.json
+
+# Data files
+*.csv
+*.json
+*.parquet
+
+# Logs
+*.log
+
+# Environment variables
+.env
+
+# Kafka
+kafka-logs/
+
+# Flink
+flink-checkpoints/
+
+# Spark
+spark-warehouse/
+
+# BigQuery
+bq-key.json
+
+# macOS system files
+.DS_Store
+
+# PostgreSQL
+*.sql
+*.dump
+
+# Airflow
+airflow.cfg
+airflow.db
+airflow-webserver.pid
